@@ -1,0 +1,439 @@
+{"_id": "0_3283984", "text": "decode a hex string '4a4b4c' to UTF-8.", "metadata": {}}
+{"_id": "1_3844801", "text": "check if all elements in list `myList` are identical", "metadata": {}}
+{"_id": "2_4302166", "text": "format number of spaces between strings `Python`, `:` and `Very Good` to be `20`", "metadata": {}}
+{"_id": "3_7555335", "text": "convert a string `d` from CP-1251 to UTF-8", "metadata": {}}
+{"_id": "4_2544710", "text": "get rid of None values in dictionary `kwargs`", "metadata": {}}
+{"_id": "5_2544710", "text": "get rid of None values in dictionary `kwargs`", "metadata": {}}
+{"_id": "6_14971373", "text": "capture final output of a chain of system commands `ps -ef | grep something | wc -l`", "metadata": {}}
+{"_id": "7_6726636", "text": "concatenate a list of strings `['a', 'b', 'c']`", "metadata": {}}
+{"_id": "8_18079563", "text": "find intersection data between series `s1` and series `s2`", "metadata": {}}
+{"_id": "9_8315209", "text": "sending http headers to `client`", "metadata": {}}
+{"_id": "10_26153795", "text": "Format a datetime string `when` to extract date only", "metadata": {}}
+{"_id": "11_172439", "text": "split a multi-line string `inputString` into separate strings", "metadata": {}}
+{"_id": "12_172439", "text": "Split a multi-line string ` a \\n b \\r\\n c ` by new line character `\\n`", "metadata": {}}
+{"_id": "13_13954222", "text": "concatenate elements of list `b` by a colon \":\"", "metadata": {}}
+{"_id": "14_13567345", "text": "Calculate sum over all rows of 2D numpy array `a`", "metadata": {}}
+{"_id": "15_29784889", "text": "enable warnings using action 'always'", "metadata": {}}
+{"_id": "16_13550423", "text": "concatenate items of list `l` with a space ' '", "metadata": {}}
+{"_id": "17_698223", "text": "parse a time string '30/03/09 16:31:32.123' containing milliseconds in it", "metadata": {}}
+{"_id": "18_6633523", "text": "convert a string `my_string` with dot and comma into a float number `my_float`", "metadata": {}}
+{"_id": "19_6633523", "text": "convert a string `123,456.908` with dot and comma into a floating number", "metadata": {}}
+{"_id": "20_3108285", "text": "set python path '/path/to/whatever' in python script", "metadata": {}}
+{"_id": "21_2195340", "text": "split string 'Words, words, words.' using a regex '(\\\\W+)'", "metadata": {}}
+{"_id": "22_17977584", "text": "open a file `Output.txt` in append mode", "metadata": {}}
+{"_id": "23_22676", "text": "download a file \"http://www.example.com/songs/mp3.mp3\" over HTTP and save to \"mp3.mp3\"", "metadata": {}}
+{"_id": "24_22676", "text": "download a file 'http://www.example.com/' over HTTP", "metadata": {}}
+{"_id": "25_22676", "text": "download a file `url` over HTTP", "metadata": {}}
+{"_id": "26_22676", "text": "download a file `url` over HTTP and save to \"10MB\"", "metadata": {}}
+{"_id": "27_15405636", "text": "argparse add argument with flag '--version' and version action of '%(prog)s 2.0' to parser `parser`", "metadata": {}}
+{"_id": "28_17665809", "text": "remove key 'c' from dictionary `d`", "metadata": {}}
+{"_id": "29_41861705", "text": "Create new DataFrame object by merging columns \"key\" of  dataframes `split_df` and `csv_df` and rename the columns from dataframes `split_df` and `csv_df` with suffix `_left` and `_right` respectively", "metadata": {}}
+{"_id": "30_10697757", "text": "Split a string `s` by space with `4` splits", "metadata": {}}
+{"_id": "31_16344756", "text": "enable debug mode on Flask application `app`", "metadata": {}}
+{"_id": "32_40133826", "text": "python save list `mylist` to file object 'save.txt'", "metadata": {}}
+{"_id": "33_4490961", "text": "Multiply a matrix `P` with a 3d tensor `T` in scipy", "metadata": {}}
+{"_id": "34_2173087", "text": "Create 3d array of zeroes of size `(3,3,3)`", "metadata": {}}
+{"_id": "35_6266727", "text": "cut off the last word of a sentence `content`", "metadata": {}}
+{"_id": "36_30385151", "text": "convert scalar `x` to array", "metadata": {}}
+{"_id": "37_15856127", "text": "sum all elements of nested list `L`", "metadata": {}}
+{"_id": "38_1592158", "text": "convert hex string '470FC614' to a float number", "metadata": {}}
+{"_id": "39_5010536", "text": "Multiple each value by `2` for all keys in a dictionary `my_dict`", "metadata": {}}
+{"_id": "40_13745648", "text": "running bash script 'sleep.sh'", "metadata": {}}
+{"_id": "41_44778", "text": "Join elements of list `l` with a comma `,`", "metadata": {}}
+{"_id": "42_44778", "text": "make a comma-separated string from a list `myList`", "metadata": {}}
+{"_id": "43_7286365", "text": "reverse the list that contains 1 to 10", "metadata": {}}
+{"_id": "44_18454570", "text": "remove substring 'bag,' from a string 'lamp, bag, mirror'", "metadata": {}}
+{"_id": "45_4357787", "text": "Reverse the order of words, delimited by `.`, in string `s`", "metadata": {}}
+{"_id": "46_21787496", "text": "convert epoch time represented as milliseconds `s` to string using format '%Y-%m-%d %H:%M:%S.%f'", "metadata": {}}
+{"_id": "47_21787496", "text": "parse milliseconds epoch time '1236472051807' to format '%Y-%m-%d %H:%M:%S'", "metadata": {}}
+{"_id": "48_20573459", "text": "get the date 7 days before the current date", "metadata": {}}
+{"_id": "49_15352457", "text": "sum elements at index `column` of each list in list `data`", "metadata": {}}
+{"_id": "50_15352457", "text": "sum columns of a list `array`", "metadata": {}}
+{"_id": "51_23164058", "text": "encode binary string 'your string' to base64 code", "metadata": {}}
+{"_id": "52_11533274", "text": "combine list of dictionaries `dicts` with the same keys in each list to a single dictionary", "metadata": {}}
+{"_id": "53_11533274", "text": "Merge a nested dictionary `dicts` into a flat dictionary by concatenating nested values with the same key `k`", "metadata": {}}
+{"_id": "54_14026704", "text": "get the url parameter 'myParam' in a Flask view", "metadata": {}}
+{"_id": "55_11236006", "text": "identify duplicate values in list `mylist`", "metadata": {}}
+{"_id": "56_20211942", "text": "Insert a 'None' value into a SQLite3 table.", "metadata": {}}
+{"_id": "57_406121", "text": "flatten list `list_of_menuitems`", "metadata": {}}
+{"_id": "58_4741537", "text": "append elements of a set `b` to a list `a`", "metadata": {}}
+{"_id": "59_15851568", "text": "Split a string `x` by last occurrence of character `-`", "metadata": {}}
+{"_id": "60_15851568", "text": "get the last part of a string before the character '-'", "metadata": {}}
+{"_id": "61_17438096", "text": "upload file using FTP", "metadata": {}}
+{"_id": "62_28742436", "text": "create array containing the maximum value of respective elements of array `[2, 3, 4]` and array `[1, 5, 2]`", "metadata": {}}
+{"_id": "63_34280147", "text": "print a list `l` and move first 3 elements to the end of the list", "metadata": {}}
+{"_id": "64_4172131", "text": "create a random list of integers", "metadata": {}}
+{"_id": "65_6677332", "text": "Using %f with strftime() in Python to get microseconds", "metadata": {}}
+{"_id": "66_15325182", "text": "filter rows in pandas starting with alphabet 'f' using regular expression.", "metadata": {}}
+{"_id": "67_583557", "text": "print a 2 dimensional list `tab` as a table with delimiters", "metadata": {}}
+{"_id": "68_38535931", "text": "pandas: delete rows in dataframe `df` based on multiple columns values", "metadata": {}}
+{"_id": "69_13945749", "text": "format the variables `goals` and `penalties` using string formatting", "metadata": {}}
+{"_id": "70_13945749", "text": "format string \"({} goals, ${})\" with variables `goals` and `penalties`", "metadata": {}}
+{"_id": "71_18524642", "text": "convert list of lists `L` to list of integers", "metadata": {}}
+{"_id": "72_18524642", "text": "convert a list of lists `L` to list of integers", "metadata": {}}
+{"_id": "73_7138686", "text": "write the elements of list `lines` concatenated by special character '\\n' to file `myfile`", "metadata": {}}
+{"_id": "74_17238587", "text": "Remove duplicate words from a string `text` using regex", "metadata": {}}
+{"_id": "75_26053849", "text": "count non zero values in each column in pandas data frame `df`", "metadata": {}}
+{"_id": "76_15534223", "text": "search for string that matches regular expression pattern '(?<!Distillr)\\\\\\\\AcroTray\\\\.exe' in string 'C:\\\\SomeDir\\\\AcroTray.exe'", "metadata": {}}
+{"_id": "77_5453026", "text": "split string 'QH QD JC KD JS' into a list on white spaces", "metadata": {}}
+{"_id": "78_18168684", "text": "search for occurrences of regex pattern '>.*<' in xml string `line`", "metadata": {}}
+{"_id": "79_4914277", "text": "erase all the contents of a file `filename`", "metadata": {}}
+{"_id": "80_19068269", "text": "convert a string `string_date` into datetime using the format '%Y-%m-%d %H:%M:%S.%f'", "metadata": {}}
+{"_id": "81_20683167", "text": "find the index of a list with the first element equal to '332' within the list of lists `thelist`", "metadata": {}}
+{"_id": "82_30693804", "text": "lower a string `text` and remove non-alphanumeric characters aside from space", "metadata": {}}
+{"_id": "83_30693804", "text": "remove all non-alphanumeric characters except space from a string `text` and lower it", "metadata": {}}
+{"_id": "84_17138464", "text": "subscript text 'H20' with '2' as subscripted in matplotlib labels for arrays 'x' and 'y'.", "metadata": {}}
+{"_id": "85_17138464", "text": "subscript text 'H20' with '2' as subscripted in matplotlib labels for arrays 'x' and 'y'.", "metadata": {}}
+{"_id": "86_9138112", "text": "loop over a list `mylist` if sublists length equals 3", "metadata": {}}
+{"_id": "87_1807026", "text": "initialize a list `lst` of 100 objects Object()", "metadata": {}}
+{"_id": "88_13793321", "text": "joining data from dataframe `df1` with data from dataframe `df2` based on matching values of column 'Date_Time' in both dataframes", "metadata": {}}
+{"_id": "89_3367288", "text": "use `%s` operator to print variable values `str1` inside a string", "metadata": {}}
+{"_id": "90_3475251", "text": "Split a string '2.MATCHES $$TEXT$$ STRING' by a delimiter '$$TEXT$$'", "metadata": {}}
+{"_id": "91_273192", "text": "check if directory `directory ` exists and create it if necessary", "metadata": {}}
+{"_id": "92_273192", "text": "check if a directory `path` exists and create it if necessary", "metadata": {}}
+{"_id": "93_273192", "text": "check if a directory `path` exists and create it if necessary", "metadata": {}}
+{"_id": "94_18785032", "text": "Replace a separate word 'H3' by 'H1' in a string 'text'", "metadata": {}}
+{"_id": "95_1450897", "text": "substitute ASCII letters in string 'aas30dsa20' with empty string ''", "metadata": {}}
+{"_id": "96_1450897", "text": "get digits only from a string `aas30dsa20` using lambda function", "metadata": {}}
+{"_id": "97_14435268", "text": "access a tag called \"name\" in beautifulsoup `soup`", "metadata": {}}
+{"_id": "98_20180210", "text": "Create new matrix object  by concatenating data from matrix A and matrix B", "metadata": {}}
+{"_id": "99_20180210", "text": "concat two matrices `A` and `B` in numpy", "metadata": {}}
+{"_id": "100_2011048", "text": "Get the characters count in a file `filepath`", "metadata": {}}
+{"_id": "101_2600191", "text": "count the occurrences of item \"a\" in list `l`", "metadata": {}}
+{"_id": "102_2600191", "text": "count the occurrences of items in list `l`", "metadata": {}}
+{"_id": "103_2600191", "text": "count the occurrences of items in list `l`", "metadata": {}}
+{"_id": "104_2600191", "text": "count the occurrences of items in list `l`", "metadata": {}}
+{"_id": "105_2600191", "text": "count the occurrences of item \"b\" in list `l`", "metadata": {}}
+{"_id": "106_12842997", "text": "copy file `srcfile` to directory `dstdir`", "metadata": {}}
+{"_id": "107_1555968", "text": "find the key associated with the largest value in dictionary `x` whilst key is non-zero value", "metadata": {}}
+{"_id": "108_17021863", "text": "Put the curser at beginning of the file", "metadata": {}}
+{"_id": "109_38152389", "text": "combine values from column 'b' and column 'a' of dataframe `df`  into column 'c' of datafram `df`", "metadata": {}}
+{"_id": "110_4175686", "text": "remove key 'ele' from dictionary `d`", "metadata": {}}
+{"_id": "111_11574195", "text": "merge list `['it']` and list `['was']` and list `['annoying']` into one list", "metadata": {}}
+{"_id": "112_587647", "text": "increment a value with leading zeroes in a number `x`", "metadata": {}}
+{"_id": "113_17315881", "text": "check if a pandas dataframe `df`'s index is sorted", "metadata": {}}
+{"_id": "114_16296643", "text": "Convert tuple `t` to list", "metadata": {}}
+{"_id": "115_16296643", "text": "Convert list `t` to tuple", "metadata": {}}
+{"_id": "116_16296643", "text": "Convert tuple `level1` to list", "metadata": {}}
+{"_id": "117_3880399", "text": "send the output of pprint object `dataobject` to file `logFile`", "metadata": {}}
+{"_id": "118_21800169", "text": "get index of rows in column 'BoolCol'", "metadata": {}}
+{"_id": "119_21800169", "text": "Create a list containing the indexes of rows where the value of column 'BoolCol' in dataframe `df` are equal to True", "metadata": {}}
+{"_id": "120_21800169", "text": "from dataframe `df` get list of indexes of rows where column 'BoolCol' values match True", "metadata": {}}
+{"_id": "121_21800169", "text": "get index of rows in dataframe `df` which column 'BoolCol' matches value True", "metadata": {}}
+{"_id": "122_299446", "text": "change working directory to the directory `owd`", "metadata": {}}
+{"_id": "123_14695134", "text": "insert data from a string `testfield` to sqlite db `c`", "metadata": {}}
+{"_id": "124_24242433", "text": "decode string \"\\\\x89\\\\n\" into a normal string", "metadata": {}}
+{"_id": "125_24242433", "text": "convert a raw string `raw_string` into a normal string", "metadata": {}}
+{"_id": "126_24242433", "text": "convert a raw string `raw_byte_string` into a normal string", "metadata": {}}
+{"_id": "127_22882922", "text": "split a string `s` with into all strings of repeated characters", "metadata": {}}
+{"_id": "128_4143502", "text": "scatter a plot with x, y position of `np.random.randn(100)` and face color equal to none", "metadata": {}}
+{"_id": "129_4143502", "text": "do a scatter plot with empty circles", "metadata": {}}
+{"_id": "130_32063985", "text": "remove a div from `soup` with a id `main-content` using beautifulsoup", "metadata": {}}
+{"_id": "131_27975069", "text": "filter rows of datafram `df` containing key word `ball` in column `ids`", "metadata": {}}
+{"_id": "132_20461165", "text": "convert index at level 0 into a column in dataframe `df`", "metadata": {}}
+{"_id": "133_20461165", "text": "Add indexes in a data frame `df` to a column `index1`", "metadata": {}}
+{"_id": "134_20461165", "text": "convert pandas index in a dataframe `df` to columns", "metadata": {}}
+{"_id": "135_4685571", "text": "Get reverse of list items from list 'b' using extended slicing", "metadata": {}}
+{"_id": "136_17960441", "text": "join each element in array `a` with element at the same index in array `b` as a tuple", "metadata": {}}
+{"_id": "137_17960441", "text": "zip two 2-d arrays `a` and `b`", "metadata": {}}
+{"_id": "138_438684", "text": "convert list `list_of_ints` into a comma separated string", "metadata": {}}
+{"_id": "139_8519922", "text": "Send a post request with raw data `DATA` and basic authentication with `username` and `password`", "metadata": {}}
+{"_id": "140_26443308", "text": "Find last occurrence of character '}' in string \"abcd}def}\"", "metadata": {}}
+{"_id": "141_22365172", "text": "Iterate ove list `[1, 2, 3]` using list comprehension", "metadata": {}}
+{"_id": "142_12300912", "text": "extract all the values with keys 'x' and 'y' from a list of dictionaries `d` to list of tuples", "metadata": {}}
+{"_id": "143_678236", "text": "get the filename without the extension from file 'hemanth.txt'", "metadata": {}}
+{"_id": "144_7895449", "text": "create a list containing flattened list `[['A', 'B', 'C'], ['D', 'E', 'F'], ['G', 'H', 'I']]`", "metadata": {}}
+{"_id": "145_31617845", "text": "select rows in a dataframe `df` column 'closing_price' between two values 99 and 101", "metadata": {}}
+{"_id": "146_25698710", "text": "replace all occurences of newlines `\\n` with `<br>` in dataframe `df`", "metadata": {}}
+{"_id": "147_25698710", "text": "replace all occurrences of a string `\\n` by string `<br>` in a pandas data frame `df`", "metadata": {}}
+{"_id": "148_41923858", "text": "create a list containing each two adjacent letters in string `word` as its elements", "metadata": {}}
+{"_id": "149_41923858", "text": "Get a list of pairs from a string `word` using lambda function", "metadata": {}}
+{"_id": "150_9760588", "text": "extract a url from a string `myString`", "metadata": {}}
+{"_id": "151_9760588", "text": "extract a url from a string `myString`", "metadata": {}}
+{"_id": "152_5843518", "text": "remove all special characters, punctuation and spaces from a string `mystring` using regex", "metadata": {}}
+{"_id": "153_36674519", "text": "create a DatetimeIndex containing 13 periods of the second friday of each month starting from date '2016-01-01'", "metadata": {}}
+{"_id": "154_508657", "text": "Create multidimensional array `matrix` with 3 rows and 2 columns in python", "metadata": {}}
+{"_id": "155_1007481", "text": "replace spaces with underscore in string `mystring`", "metadata": {}}
+{"_id": "156_1249786", "text": "split string `my_string` on white spaces", "metadata": {}}
+{"_id": "157_4444923", "text": "get filename without extension from file `filename`", "metadata": {}}
+{"_id": "158_13728486", "text": "get a list containing the sum of each element `i` in list `l` plus the previous elements", "metadata": {}}
+{"_id": "159_9743134", "text": "split a string `Docs/src/Scripts/temp` by `/` keeping `/` in the result", "metadata": {}}
+{"_id": "160_20546419", "text": "shuffle columns of an numpy array 'r'", "metadata": {}}
+{"_id": "161_32675861", "text": "copy all values in a column 'B' to a new column 'D' in a pandas data frame 'df'", "metadata": {}}
+{"_id": "162_14227561", "text": "find a value within nested json 'data' where the key inside another key 'B' is unknown.", "metadata": {}}
+{"_id": "163_14858916", "text": "check characters of string `string` are true predication of function `predicate`", "metadata": {}}
+{"_id": "164_574236", "text": "determine number of files on a drive with python", "metadata": {}}
+{"_id": "165_7011291", "text": "how to get a single result from a SQLite query from `cursor`", "metadata": {}}
+{"_id": "166_6378889", "text": "convert string `user_input` into a list of integers `user_list`", "metadata": {}}
+{"_id": "167_6378889", "text": "Get a list of integers by splitting  a string `user` with comma", "metadata": {}}
+{"_id": "168_5212870", "text": "Sorting a Python list `list` by the first item ascending and last item descending", "metadata": {}}
+{"_id": "169_403421", "text": "sort a list of objects `ut`, based on a function `cmpfun` in descending order", "metadata": {}}
+{"_id": "170_403421", "text": "reverse list `ut` based on the `count` attribute of each object", "metadata": {}}
+{"_id": "171_3944876", "text": "cast an int `i` to a string and concat to string 'ME'", "metadata": {}}
+{"_id": "172_40903174", "text": "Sorting data in Pandas DataFrame `df` with columns 'System_num' and 'Dis'", "metadata": {}}
+{"_id": "173_4454298", "text": "prepend the line '#test firstline\\n' to the contents of file 'infile' and save as the file 'outfile'", "metadata": {}}
+{"_id": "174_19729928", "text": "sort a list `l` by length of value in tuple", "metadata": {}}
+{"_id": "175_31371879", "text": "split string `s` by words that ends with 'd'", "metadata": {}}
+{"_id": "176_9012008", "text": "return `True` if string `foobarrrr` contains regex `ba[rzd]`", "metadata": {}}
+{"_id": "177_7961363", "text": "Removing duplicates in list `t`", "metadata": {}}
+{"_id": "178_7961363", "text": "Removing duplicates in list `source_list`", "metadata": {}}
+{"_id": "179_7961363", "text": "Removing duplicates in list `abracadabra`", "metadata": {}}
+{"_id": "180_5183533", "text": "Convert array `a` into a list", "metadata": {}}
+{"_id": "181_5183533", "text": "Convert the first row of numpy matrix `a` to a list", "metadata": {}}
+{"_id": "182_5999747", "text": "In `soup`, get the content of the sibling of the `td`  tag with text content `Address:`", "metadata": {}}
+{"_id": "183_4284648", "text": "convert elements of each tuple in list `l` into a string  separated by character `@`", "metadata": {}}
+{"_id": "184_4284648", "text": "convert each tuple in list `l` to a string with '@' separating the tuples' elements", "metadata": {}}
+{"_id": "185_29696641", "text": "Get all matches with regex pattern `\\\\d+[xX]` in list of string `teststr`", "metadata": {}}
+{"_id": "186_15315452", "text": "select values from column 'A' for which corresponding values in column 'B' will be greater than 50, and in column 'C' - equal 900 in dataframe `df`", "metadata": {}}
+{"_id": "187_4642501", "text": "Sort dictionary `o` in ascending order based on its keys and items", "metadata": {}}
+{"_id": "188_4642501", "text": "get sorted list of keys of dict `d`", "metadata": {}}
+{"_id": "189_4642501", "text": "sort dictionaries `d` by keys", "metadata": {}}
+{"_id": "190_642154", "text": "convert string \"1\" into integer", "metadata": {}}
+{"_id": "191_642154", "text": "convert items in `T1` to integers", "metadata": {}}
+{"_id": "192_3777301", "text": "call a shell script `./test.sh` using subprocess", "metadata": {}}
+{"_id": "193_3777301", "text": "call a shell script `notepad` using subprocess", "metadata": {}}
+{"_id": "194_7946798", "text": "combine lists `l1` and `l2`  by alternating their elements", "metadata": {}}
+{"_id": "195_8908287", "text": "encode string 'data to be encoded'", "metadata": {}}
+{"_id": "196_8908287", "text": "encode a string `data to be encoded` to `ascii` encoding", "metadata": {}}
+{"_id": "197_7856296", "text": "parse tab-delimited CSV file 'text.txt' into a list", "metadata": {}}
+{"_id": "198_9035479", "text": "Get attribute `my_str` of object `my_object`", "metadata": {}}
+{"_id": "199_5558418", "text": "group a list of dicts `LD` into one dict by key", "metadata": {}}
+{"_id": "200_638048", "text": "sum the first value in each tuple in a list of tuples `list_of_pairs` in python", "metadata": {}}
+{"_id": "201_14950260", "text": "convert unicode string u\"{'code1':1,'code2':1}\" into dictionary", "metadata": {}}
+{"_id": "202_11416772", "text": "find all words in a string `mystring` that start with the `$` sign", "metadata": {}}
+{"_id": "203_11331982", "text": "remove any url within string `text`", "metadata": {}}
+{"_id": "204_34945274", "text": "replace all elements in array `A` that are not present in array `[1, 3, 4]` with zeros", "metadata": {}}
+{"_id": "205_15819980", "text": "calculate mean across dimension in a 2d array `a`", "metadata": {}}
+{"_id": "206_19894365", "text": "running r script '/pathto/MyrScript.r' from python", "metadata": {}}
+{"_id": "207_19894365", "text": "run r script '/usr/bin/Rscript --vanilla /pathto/MyrScript.r'", "metadata": {}}
+{"_id": "208_33058590", "text": "replacing nan in the dataframe `df` with row average", "metadata": {}}
+{"_id": "209_12400256", "text": "Convert unix timestamp '1347517370' to formatted string '%Y-%m-%d %H:%M:%S'", "metadata": {}}
+{"_id": "210_23359886", "text": "selecting rows in Numpy ndarray 'a', where the value in the first column is 0 and value in the second column is 1", "metadata": {}}
+{"_id": "211_4383082", "text": "separate words delimited by one or more spaces into a list", "metadata": {}}
+{"_id": "212_14637696", "text": "length of longest element in list `words`", "metadata": {}}
+{"_id": "213_3933478", "text": "get the value associated with unicode key 'from_user' of first dictionary in list `result`", "metadata": {}}
+{"_id": "214_39112645", "text": "Retrieve each line from a file 'File.txt' as a list", "metadata": {}}
+{"_id": "215_1031851", "text": "swap keys with values in a dictionary `a`", "metadata": {}}
+{"_id": "216_8577137", "text": "Open a file `path/to/FILE_NAME.ext` in write mode", "metadata": {}}
+{"_id": "217_17926273", "text": "count distinct values in a column 'col3' of a pandas dataframe `df` group by objects in 'col1' and 'col2'", "metadata": {}}
+{"_id": "218_3735814", "text": "Check if any key in the dictionary `dict1` starts with the string `EMP$$`", "metadata": {}}
+{"_id": "219_3735814", "text": "create list of values from dictionary `dict1` that have a key that starts with 'EMP$$'", "metadata": {}}
+{"_id": "220_26097916", "text": "convert a pandas series `sf` into a pandas dataframe `df` with columns `email` and `list`", "metadata": {}}
+{"_id": "221_4048964", "text": "concatenate elements of list `list` by tabs `\t`", "metadata": {}}
+{"_id": "222_3182716", "text": "print unicode string '\\xd0\\xbf\\xd1\\x80\\xd0\\xb8' with utf-8", "metadata": {}}
+{"_id": "223_3182716", "text": "Encode a latin character in string `Sopet\\xc3\\xb3n` properly", "metadata": {}}
+{"_id": "224_35622945", "text": "regex, find \"n\"s only in the middle of string `s`", "metadata": {}}
+{"_id": "225_5306756", "text": "display the float `1/3*100` as a percentage", "metadata": {}}
+{"_id": "226_2878084", "text": "sort a list of dictionary `mylist` by the key `title`", "metadata": {}}
+{"_id": "227_2878084", "text": "sort a list `l` of dicts by dict value 'title'", "metadata": {}}
+{"_id": "228_2878084", "text": "sort a list of dictionaries by the value of keys 'title', 'title_url', 'id' in ascending order.", "metadata": {}}
+{"_id": "229_9323159", "text": "find 10 largest differences between each respective elements of list `l1` and list `l2`", "metadata": {}}
+{"_id": "230_29877663", "text": "BeautifulSoup find all 'span' elements in HTML string `soup` with class of 'starGryB sp'", "metadata": {}}
+{"_id": "231_24189150", "text": "write records in dataframe `df` to table 'test' in schema 'a_schema' with `engine`", "metadata": {}}
+{"_id": "232_30766151", "text": "Extract brackets from string `s`", "metadata": {}}
+{"_id": "233_1143379", "text": "remove duplicate elements from list 'L'", "metadata": {}}
+{"_id": "234_12330522", "text": "read a file `file` without newlines", "metadata": {}}
+{"_id": "235_364621", "text": "get the position of item 1 in `testlist`", "metadata": {}}
+{"_id": "236_364621", "text": "get the position of item 1 in `testlist`", "metadata": {}}
+{"_id": "237_364621", "text": "get the position of item `element` in list `testlist`", "metadata": {}}
+{"_id": "238_13145368", "text": "find the first element of the tuple with the maximum second element in a list of tuples `lis`", "metadata": {}}
+{"_id": "239_13145368", "text": "get the item at index 0 from the tuple that has maximum value at index 1 in list `lis`", "metadata": {}}
+{"_id": "240_2689189", "text": "Make a delay of 1 second", "metadata": {}}
+{"_id": "241_12485244", "text": "convert list of tuples `L` to a string", "metadata": {}}
+{"_id": "242_755857", "text": "Django set default value of field `b` equal to '0000000'", "metadata": {}}
+{"_id": "243_16193578", "text": "Sort lis `list5` in ascending order based on the degrees value of its elements", "metadata": {}}
+{"_id": "244_16041405", "text": "convert a list `l` into a generator object", "metadata": {}}
+{"_id": "245_18837607", "text": "remove elements from list `oldlist` that have an index number mentioned in list `removelist`", "metadata": {}}
+{"_id": "246_4710067", "text": "Open a file `yourfile.txt` in write mode", "metadata": {}}
+{"_id": "247_7373219", "text": "get attribute 'attr' from object `obj`", "metadata": {}}
+{"_id": "248_8171751", "text": "convert tuple of tuples `(('aa',), ('bb',), ('cc',))` to tuple", "metadata": {}}
+{"_id": "249_8171751", "text": "convert tuple of tuples `(('aa',), ('bb',), ('cc',))` to list in one line", "metadata": {}}
+{"_id": "250_28986489", "text": "replace a characters in a column of a dataframe `df`", "metadata": {}}
+{"_id": "251_19339", "text": "unzip the list `[('a', 1), ('b', 2), ('c', 3), ('d', 4)]`", "metadata": {}}
+{"_id": "252_19339", "text": "unzip list `original`", "metadata": {}}
+{"_id": "253_19339", "text": "unzip list `original` and return a generator", "metadata": {}}
+{"_id": "254_19339", "text": "unzip list `[('a', 1), ('b', 2), ('c', 3), ('d', 4), ('e', )]`", "metadata": {}}
+{"_id": "255_19339", "text": "unzip list `[('a', 1), ('b', 2), ('c', 3), ('d', 4), ('e', )]` and fill empty results with None", "metadata": {}}
+{"_id": "256_1960516", "text": "encode `Decimal('3.9')` to a JSON string", "metadata": {}}
+{"_id": "257_1024847", "text": "Add key \"mynewkey\" to dictionary `d` with value \"mynewvalue\"", "metadata": {}}
+{"_id": "258_1024847", "text": "Add key 'a' to dictionary `data` with value 1", "metadata": {}}
+{"_id": "259_1024847", "text": "Add key 'a' to dictionary `data` with value 1", "metadata": {}}
+{"_id": "260_1024847", "text": "Add key 'a' to dictionary `data` with value 1", "metadata": {}}
+{"_id": "261_35837346", "text": "find maximal value in matrix `matrix`", "metadata": {}}
+{"_id": "262_20457038", "text": "Round number `answer` to 2 precision after the decimal point", "metadata": {}}
+{"_id": "263_2890896", "text": "extract ip address `ip` from an html string `s`", "metadata": {}}
+{"_id": "264_29836836", "text": "filter dataframe `df` by values in column `A` that appear more than once", "metadata": {}}
+{"_id": "265_2545397", "text": "append each line in file `myfile` into a list", "metadata": {}}
+{"_id": "266_2545397", "text": "Get a list of integers `lst` from a file `filename.txt`", "metadata": {}}
+{"_id": "267_35420052", "text": "add color bar with image `mappable` to plot `plt`", "metadata": {}}
+{"_id": "268_29903025", "text": "count most frequent 100 words in column 'text' of dataframe `df`", "metadata": {}}
+{"_id": "269_7378180", "text": "generate all 2-element subsets of tuple `(1, 2, 3)`", "metadata": {}}
+{"_id": "270_4530069", "text": "get a value of datetime.today() in the UTC time zone", "metadata": {}}
+{"_id": "271_4842956", "text": "Get a new list `list2`by removing empty list from a list of lists `list1`", "metadata": {}}
+{"_id": "272_4842956", "text": "Create `list2` to contain the lists from list `list1` excluding the empty lists from `list1`", "metadata": {}}
+{"_id": "273_9262278", "text": "Django response with JSON `data`", "metadata": {}}
+{"_id": "274_17284947", "text": "get all text that is not enclosed within square brackets in string `example_str`", "metadata": {}}
+{"_id": "275_17284947", "text": "Use a regex to get all text in a string `example_str` that is not surrounded by square brackets", "metadata": {}}
+{"_id": "276_14182339", "text": "get whatever is between parentheses as a single match, and any char outside as an individual match in string '(zyx)bc'", "metadata": {}}
+{"_id": "277_14182339", "text": "match regex '\\\\((.*?)\\\\)|(\\\\w)' with string '(zyx)bc'", "metadata": {}}
+{"_id": "278_14182339", "text": "match multiple regex patterns with the alternation operator `|` in a string `(zyx)bc`", "metadata": {}}
+{"_id": "279_7126916", "text": "formate each string cin list `elements` into pattern '%{0}%'", "metadata": {}}
+{"_id": "280_3595685", "text": "Open a background process 'background-process' with arguments 'arguments'", "metadata": {}}
+{"_id": "281_18453566", "text": "get list of values from dictionary 'mydict' w.r.t. list of keys 'mykeys'", "metadata": {}}
+{"_id": "282_12692135", "text": "convert list `[('Name', 'Joe'), ('Age', 22)]` into a dictionary", "metadata": {}}
+{"_id": "283_14401047", "text": "average each two columns of array `data`", "metadata": {}}
+{"_id": "284_18886596", "text": "double backslash escape all double quotes in string `s`", "metadata": {}}
+{"_id": "285_5932059", "text": "split a string `s` into a list of words and whitespace", "metadata": {}}
+{"_id": "286_9938130", "text": "plotting stacked barplots on a panda data frame `df`", "metadata": {}}
+{"_id": "287_35945473", "text": "reverse the keys and values in a dictionary `myDictionary`", "metadata": {}}
+{"_id": "288_30729735", "text": "finding the index of elements containing substring 'how' and 'what' in a list of strings 'myList'.", "metadata": {}}
+{"_id": "289_1303243", "text": "check if object `obj` is a string", "metadata": {}}
+{"_id": "290_1303243", "text": "check if object `o` is a string", "metadata": {}}
+{"_id": "291_1303243", "text": "check if object `o` is a string", "metadata": {}}
+{"_id": "292_1303243", "text": "check if `obj_to_test` is a string", "metadata": {}}
+{"_id": "293_8177079", "text": "append list `list1` to `list2`", "metadata": {}}
+{"_id": "294_8177079", "text": "append list `mylog` to `list1`", "metadata": {}}
+{"_id": "295_8177079", "text": "append list `a` to `c`", "metadata": {}}
+{"_id": "296_8177079", "text": "append items in list `mylog` to `list1`", "metadata": {}}
+{"_id": "297_4126227", "text": "append a tuple of elements from list `a` with indexes '[0][0] [0][2]' to list `b`", "metadata": {}}
+{"_id": "298_34902378", "text": "Initialize `SECRET_KEY` in flask config with `Your_secret_string `", "metadata": {}}
+{"_id": "299_22799300", "text": "unpack a series of tuples in pandas `out` into a DataFrame with column names 'out-1' and 'out-2'", "metadata": {}}
+{"_id": "300_1762484", "text": "find the index of an element 'MSFT' in a list `stocks_list`", "metadata": {}}
+{"_id": "301_3464359", "text": "rotate the xtick `labels` of matplotlib plot `ax` by `45` degrees to make long labels readable", "metadata": {}}
+{"_id": "302_875968", "text": "remove symbols from a string `s`", "metadata": {}}
+{"_id": "303_34750084", "text": "Find octal characters matches from a string `s` using regex", "metadata": {}}
+{"_id": "304_13209288", "text": "split string `input` based on occurrences of regex pattern '[ ](?=[A-Z]+\\\\b)'", "metadata": {}}
+{"_id": "305_13209288", "text": "Split string `input` at every space followed by an upper-case letter", "metadata": {}}
+{"_id": "306_24642040", "text": "send multipart encoded file `files` to url `url` with headers `headers` and metadata `data`", "metadata": {}}
+{"_id": "307_4290716", "text": "write bytes `bytes_` to a file `filename` in python 3", "metadata": {}}
+{"_id": "308_33078554", "text": "get a list from a list `lst` with values mapped into a dictionary `dct`", "metadata": {}}
+{"_id": "309_15247628", "text": "find duplicate names in column 'name' of the dataframe `x`", "metadata": {}}
+{"_id": "310_783897", "text": "truncate float 1.923328437452 to 3 decimal places", "metadata": {}}
+{"_id": "311_22859493", "text": "sort list `li` in descending order based on the date value in second element of each list in list `li`", "metadata": {}}
+{"_id": "312_29394552", "text": "place the radial ticks in plot `ax` at 135 degrees", "metadata": {}}
+{"_id": "313_3320406", "text": "check if path `my_path` is an absolute path", "metadata": {}}
+{"_id": "314_2212433", "text": "get number of keys in dictionary `yourdict`", "metadata": {}}
+{"_id": "315_2212433", "text": "count the number of keys in dictionary `yourdictfile`", "metadata": {}}
+{"_id": "316_20067636", "text": "pandas dataframe `df` get first row of each group by 'id'", "metadata": {}}
+{"_id": "317_40924332", "text": "split a list in first column into multiple columns keeping other columns as well in pandas data frame `df`", "metadata": {}}
+{"_id": "318_30759776", "text": "extract attributes 'src=\"js/([^\"]*\\\\bjquery\\\\b[^\"]*)\"' from string `data`", "metadata": {}}
+{"_id": "319_25388796", "text": "Sum integers contained in strings in list `['', '3.4', '', '', '1.0']`", "metadata": {}}
+{"_id": "320_804995", "text": "Call a subprocess with arguments `c:\\\\Program Files\\\\VMware\\\\VMware Server\\\\vmware-cmd.bat` that may contain spaces", "metadata": {}}
+{"_id": "321_26441253", "text": "reverse a priority queue `q` in python without using classes", "metadata": {}}
+{"_id": "322_18897261", "text": "make a barplot of data in column `group` of dataframe `df` colour-coded according to list `color`", "metadata": {}}
+{"_id": "323_373194", "text": "find all matches of regex pattern '([a-fA-F\\\\d]{32})' in string `data`", "metadata": {}}
+{"_id": "324_518021", "text": "Get the length of list `my_list`", "metadata": {}}
+{"_id": "325_518021", "text": "Getting the length of array `l`", "metadata": {}}
+{"_id": "326_518021", "text": "Getting the length of array `s`", "metadata": {}}
+{"_id": "327_518021", "text": "Getting the length of `my_tuple`", "metadata": {}}
+{"_id": "328_518021", "text": "Getting the length of `my_string`", "metadata": {}}
+{"_id": "329_40452956", "text": "remove escape character from string \"\\\\a\"", "metadata": {}}
+{"_id": "330_8687018", "text": "replace each 'a' with 'b' and each 'b' with 'a' in the string 'obama' in a single pass.", "metadata": {}}
+{"_id": "331_303200", "text": "remove directory tree '/folder_name'", "metadata": {}}
+{"_id": "332_13740672", "text": "create a new column `weekday` in pandas data frame `data` based on the values in column `my_dt`", "metadata": {}}
+{"_id": "333_20950650", "text": "reverse sort Counter `x` by values", "metadata": {}}
+{"_id": "334_20950650", "text": "reverse sort counter `x` by value", "metadata": {}}
+{"_id": "335_9775297", "text": "append a numpy array 'b' to a numpy array 'a'", "metadata": {}}
+{"_id": "336_21887754", "text": "numpy concatenate two arrays `a` and `b` along the first axis", "metadata": {}}
+{"_id": "337_21887754", "text": "numpy concatenate two arrays `a` and `b` along the second axis", "metadata": {}}
+{"_id": "338_21887754", "text": "numpy concatenate two arrays `a` and `b` along the first axis", "metadata": {}}
+{"_id": "339_21887754", "text": "numpy concatenate two arrays `a` and `b` along the first axis", "metadata": {}}
+{"_id": "340_2805231", "text": "fetch address information for host 'google.com' ion port 80", "metadata": {}}
+{"_id": "341_17552997", "text": "add a column 'day' with value 'sat' to dataframe `df`", "metadata": {}}
+{"_id": "342_4356842", "text": "return a 401 unauthorized in django", "metadata": {}}
+{"_id": "343_13598363", "text": "Flask set folder 'wherever' as the default template folder", "metadata": {}}
+{"_id": "344_3398589", "text": "sort a list of lists 'c2' such that third row comes first", "metadata": {}}
+{"_id": "345_3398589", "text": "sort a list of lists 'c2' in reversed row order", "metadata": {}}
+{"_id": "346_3398589", "text": "Sorting a list of lists `c2`, each by the third and second row", "metadata": {}}
+{"_id": "347_10960463", "text": "set font `Arial` to display non-ascii characters in matplotlib", "metadata": {}}
+{"_id": "348_20576618", "text": "Convert  DateTime column 'date' of pandas dataframe 'df' to ordinal", "metadata": {}}
+{"_id": "349_31793195", "text": "Get the integer location of a key `bob` in a pandas data frame `df`", "metadata": {}}
+{"_id": "350_10487278", "text": "add an item with key 'third_key' and value 1 to an dictionary `my_dict`", "metadata": {}}
+{"_id": "351_10487278", "text": "declare an array `my_list`", "metadata": {}}
+{"_id": "352_10487278", "text": "Insert item `12` to a list `my_list`", "metadata": {}}
+{"_id": "353_10155684", "text": "add an entry 'wuggah' at the beginning of list `myList`", "metadata": {}}
+{"_id": "354_3519125", "text": "convert a hex-string representation `hex_str` to actual bytes", "metadata": {}}
+{"_id": "355_40144769", "text": "select the last column of dataframe `df`", "metadata": {}}
+{"_id": "356_30787901", "text": "get the first value from dataframe `df` where column 'Letters' is equal to 'C'", "metadata": {}}
+{"_id": "357_18730044", "text": "converting two lists `[1, 2, 3]` and `[4, 5, 6]` into a matrix", "metadata": {}}
+{"_id": "358_402504", "text": "get the type of `i`", "metadata": {}}
+{"_id": "359_402504", "text": "determine the type of variable `v`", "metadata": {}}
+{"_id": "360_402504", "text": "determine the type of variable `v`", "metadata": {}}
+{"_id": "361_402504", "text": "get the type of variable `variable_name`", "metadata": {}}
+{"_id": "362_2300756", "text": "get the 5th item of a generator `g`", "metadata": {}}
+{"_id": "363_20056548", "text": "return a string `word` with string format", "metadata": {}}
+{"_id": "364_8546245", "text": "join a list of strings `list` using a space ' '", "metadata": {}}
+{"_id": "365_2276416", "text": "create list `y` containing two empty lists", "metadata": {}}
+{"_id": "366_3925614", "text": "read a file `filename` into a list `data`", "metadata": {}}
+{"_id": "367_22187233", "text": "delete all occurrences of character 'i' in string 'it is icy'", "metadata": {}}
+{"_id": "368_22187233", "text": "delete all instances of a character 'i' in a string 'it is icy'", "metadata": {}}
+{"_id": "369_22187233", "text": "delete all characters \"i\" in string \"it is icy\"", "metadata": {}}
+{"_id": "370_13413590", "text": "Drop rows of pandas dataframe `df` having NaN in column at index \"1\"", "metadata": {}}
+{"_id": "371_598398", "text": "get elements from list `myList`, that have a field `n` value 30", "metadata": {}}
+{"_id": "372_10351772", "text": "converting list of strings `intstringlist` to list of integer `nums`", "metadata": {}}
+{"_id": "373_493386", "text": "print \".\" without newline", "metadata": {}}
+{"_id": "374_6569528", "text": "round off the float that is the product of `2.52 * 100` and convert it to an int", "metadata": {}}
+{"_id": "375_3964681", "text": "Find all files `files` in directory '/mydir' with extension '.txt'", "metadata": {}}
+{"_id": "376_3964681", "text": "Find all files in directory \"/mydir\" with extension \".txt\"", "metadata": {}}
+{"_id": "377_3964681", "text": "Find all files in directory \"/mydir\" with extension \".txt\"", "metadata": {}}
+{"_id": "378_20865487", "text": "plot dataframe `df` without a legend", "metadata": {}}
+{"_id": "379_13368659", "text": "loop through the IP address range \"192.168.x.x\"", "metadata": {}}
+{"_id": "380_4065737", "text": "Sum the corresponding decimal values for binary values of each boolean element in list `x`", "metadata": {}}
+{"_id": "381_8691311", "text": "write multiple strings `line1`, `line2` and `line3` in one line in a file `target`", "metadata": {}}
+{"_id": "382_10632111", "text": "Convert list of lists `data` into a flat list", "metadata": {}}
+{"_id": "383_15392730", "text": "Print new line character as `\\n` in a string `foo\\nbar`", "metadata": {}}
+{"_id": "384_1010961", "text": "remove last comma character ',' in string `s`", "metadata": {}}
+{"_id": "385_23855976", "text": "calculate the mean of each element in array `x` with the element previous to it", "metadata": {}}
+{"_id": "386_23855976", "text": "get an array of the mean of each two consecutive values in numpy array `x`", "metadata": {}}
+{"_id": "387_6375343", "text": "load data containing `utf-8` from file `new.txt` into numpy array `arr`", "metadata": {}}
+{"_id": "388_1547733", "text": "reverse sort list of dicts `l` by value for key `time`", "metadata": {}}
+{"_id": "389_1547733", "text": "Sort a list of dictionary `l` based on key `time` in descending order", "metadata": {}}
+{"_id": "390_37080612", "text": "get rows of dataframe `df` that match regex '(Hel|Just)'", "metadata": {}}
+{"_id": "391_14716342", "text": "find the string in `your_string` between two special characters \"[\" and \"]\"", "metadata": {}}
+{"_id": "392_18684076", "text": "create a list of date string in 'yyyymmdd' format with Python Pandas from '20130226' to '20130302'", "metadata": {}}
+{"_id": "393_1666700", "text": "count number of times string 'brown' occurred in string 'The big brown fox is brown'", "metadata": {}}
+{"_id": "394_18979111", "text": "decode json string `request_body` to python dict", "metadata": {}}
+{"_id": "395_7243750", "text": "download the file from url `url` and save it under file `file_name`", "metadata": {}}
+{"_id": "396_743806", "text": "split string `text` by space", "metadata": {}}
+{"_id": "397_743806", "text": "split string `text` by \",\"", "metadata": {}}
+{"_id": "398_743806", "text": "Split string `line` into a list by whitespace", "metadata": {}}
+{"_id": "399_35044115", "text": "replace dot characters  '.' associated with ascii letters in list `s` with space ' '", "metadata": {}}
+{"_id": "400_38388799", "text": "sort list `list_of_strings` based on second index of each string `s`", "metadata": {}}
+{"_id": "401_37004138", "text": "eliminate non-integer items from list `lst`", "metadata": {}}
+{"_id": "402_37004138", "text": "get all the elements except strings from the list 'lst'.", "metadata": {}}
+{"_id": "403_72899", "text": "Sort a list of dictionaries `list_to_be_sorted` by the value of the dictionary key `name`", "metadata": {}}
+{"_id": "404_72899", "text": "sort a list of dictionaries `l` by values in key `name` in descending order", "metadata": {}}
+{"_id": "405_72899", "text": "sort a list of dictionaries `list_of_dicts` by `name` values of the dictionary", "metadata": {}}
+{"_id": "406_72899", "text": "sort a list of dictionaries `list_of_dicts` by `age` values of the dictionary", "metadata": {}}
+{"_id": "407_36402748", "text": "sort a Dataframe `df` by the total ocurrences in a column 'scores' group by 'prots'", "metadata": {}}
+{"_id": "408_29881993", "text": "join together with \",\" elements inside a list indexed with 'category' within a dictionary `trans`", "metadata": {}}
+{"_id": "409_34158494", "text": "concatenate array of strings `['A', 'B', 'C', 'D']` into a string", "metadata": {}}
+{"_id": "410_12666897", "text": "Remove all strings from a list a strings `sents` where the values starts with `@$\\t` or `#`", "metadata": {}}
+{"_id": "411_5944630", "text": "sort a list of dictionary `list` first by key `points` and then by `time`", "metadata": {}}
+{"_id": "412_7852855", "text": "convert datetime object `(1970, 1, 1)` to seconds", "metadata": {}}
+{"_id": "413_2763750", "text": "insert `_suff` before the file extension in `long.file.name.jpg` or replace `_a` with `suff` if it precedes the extension.", "metadata": {}}
+{"_id": "414_6420361", "text": "reload a module `module`", "metadata": {}}
+{"_id": "415_19546911", "text": "Convert integer `number` into an unassigned integer", "metadata": {}}
+{"_id": "416_9746522", "text": "convert int values in list `numlist` to float", "metadata": {}}
+{"_id": "417_20107570", "text": "write dataframe `df`, excluding index, to a csv file `filename`", "metadata": {}}
+{"_id": "418_8740353", "text": "convert a urllib unquoted string `unescaped` to a json data `json_data`", "metadata": {}}
+{"_id": "419_5891453", "text": "Create a list containing all ascii characters as its elements", "metadata": {}}
+{"_id": "420_18367007", "text": "write `newFileBytes` to a binary file `newFile`", "metadata": {}}
+{"_id": "421_21805490", "text": "python regex - check for a capital letter with a following lowercase in string `string`", "metadata": {}}
+{"_id": "422_16125229", "text": "get the last key of dictionary `dict`", "metadata": {}}
+{"_id": "423_6159900", "text": "write line \"hi there\" to file `f`", "metadata": {}}
+{"_id": "424_6159900", "text": "write line \"hi there\" to file `myfile`", "metadata": {}}
+{"_id": "425_6159900", "text": "write line \"Hello\" to file `somefile.txt`", "metadata": {}}
+{"_id": "426_19527279", "text": "convert unicode string `s` to ascii", "metadata": {}}
+{"_id": "427_356483", "text": "Find all numbers and dots from a string `text` using regex", "metadata": {}}
+{"_id": "428_38081866", "text": "execute script 'script.ps1' using 'powershell.exe' shell", "metadata": {}}
+{"_id": "429_7349646", "text": "Sort a list of tuples `b` by third item in the tuple", "metadata": {}}
+{"_id": "430_10607688", "text": "create a datetime with the current date & time", "metadata": {}}
+{"_id": "431_30843103", "text": "get the index of an integer `1` from a list `lst` if the list also contains boolean items", "metadata": {}}
+{"_id": "432_4918425", "text": "subtract 13 from every number in a list `a`", "metadata": {}}
+{"_id": "433_17794266", "text": "get the highest element in absolute value in a numpy matrix `x`", "metadata": {}}
+{"_id": "434_30551576", "text": "Get all urls within text `s`", "metadata": {}}
+{"_id": "435_113534", "text": "split a string `mystring` considering the spaces ' '", "metadata": {}}
+{"_id": "436_5838735", "text": "open file `path` with mode 'r'", "metadata": {}}
+{"_id": "437_36003967", "text": "sum elements at the same index in list `data`", "metadata": {}}
+{"_id": "438_7635237", "text": "add a new axis to array `a`", "metadata": {}}
