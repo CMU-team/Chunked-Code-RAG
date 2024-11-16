@@ -178,59 +178,6 @@ The modified corpus will be saved in `OUTPUT_DIR/{CORPUS NAME}_corpus/edit.jsonl
 the index will be saved in `INDEX_DIR/{CORPUS NAME}_corpus/`. The search result will be saved in `results/{DATASET_NAME}_k1={K1}_b={B}_pyserini_bm25_corpus`, 
 and the score file will be saved in `{DATASET_NAME}_corpus={CORPUS_NAME}_k1={K1}_b={B}_pyserini_bm25_output.jsonl`, retrieval results in `{DATASET_NAME}_corpus={CORPUS_NAME}_k1={K1}_b={B}_pyserini_bm25.jsonl`.
 
-### Run API-based models
-
-#### For canonical retrieval source
-* For non-repository level datasets:
-Run your API-based models by loading embeddings from the proprietary APIs as follows:
-    
-    ```sh
-    # voyage.ai
-    python3 eval_voyage.py \
-        --dataset TASK_NAME \
-        --model MODEL_NAME (default is voyage-code-2) \
-        --api_key_fp PATH_TO_YOUR_API_KEY_FILE (need to have a new line) \
-        --batch_size YOUR_BATCH_SIZE \
-        --output_file PATH_TO_YOUR_SCORE_FILE \
-        --results_file PATH_TO_YOUR_RETRIEVAL_RESULTS_FILE
-        
-    # openai
-    python3 eval_openai.py \
-        --dataset TASK_NAME \
-        --model MODEL_NAME (default is text-embedding-3-small) \
-        --api_key_fp PATH_TO_YOUR_API_KEY_FILE (need to have a new line) \
-        --batch_size YOUR_BATCH_SIZE \
-        --output_file PATH_TO_YOUR_SCORE_FILE \
-        --results_file PATH_TO_YOUR_RETRIEVAL_RESULTS_FILE
-    ```
-    `--run_async` can be used to run the retrieval asynchronously.
-    
-    The default behavior is to cache and use the generated document embedding and doc ids of voyage in `datasets/{dataset}/voyage_doc_embeddings.npy` and `datasets/{dataset}/voyage_doc_ids.json`,
-    and of openai in `datasets/{dataset}/doc_embeddings.npy`, `datasets/{dataset}/doc_ids.json`. 
-    
-    Query embeddings and query to ids are also cached in `datasets/{dataset}/voyage_query_embeddings.npy` and `datasets/{dataset}/voyage_queryidx2truncatedidx.json`,
-    and of openai in `datasets/{dataset}/query_embeddings.npy`, `datasets/{dataset}/queryidx2truncatedidx.json`.
-    Please erase them if you would like a fresh start.
-* For repository level datasets:
-    ```sh
-    python3 eval_api_repo.py \
-        --dataset TASK_NAME \
-        --model MODEL_NAME \
-        --api_key_fp PATH_TO_YOUR_API_KEY_FILE (need to have a new line) \
-        --batch_size YOUR_BATCH_SIZE \
-        --output_file PATH_TO_YOUR_SCORE_FILE \
-        --results_file PATH_TO_YOUR_RETRIEVAL_RESULTS_FILE
-    ```
-    `--run_async` can be used to run the retrieval asynchronously. Both query embeddings, query to id and document embeddings and document ids will be saved in `datasets/{dataset}/{instance dir}`, where instance dir is one specific instance of the dataset.
-  
-#### For open retrieval
-Datasets other than swe-bench-lite are supported.
-Add `--corpus_path THE_PATH_TO_YOUR_CORPUS_FILE (we expect an edit.jsonl in a separate directory, you can use the processed one for BM25)` to the above commands. 
-Query embeddings and query to ids will be cached in the same manner as above, while the document will be cached in generated document embedding and doc ids of voyage in
-`THE_PARENT_DIR_OF_CORPUS_PATH/voyage_doc_embeddings.npy` and `THE_PARENT_DIR_OF_CORPUS_PATH/voyage_doc_ids.json`,
-and of openai in `THE_PARENT_DIR_OF_CORPUS_PATH/doc_embeddings.npy`, `THE_PARENT_DIR_OF_CORPUS_PATH/doc_ids.json`. 
-Please erase them if you would like a fresh start.
-
 ## Generation
 
 The `main.py` script supports running code generation with any models supported by huggingface or OpenAI.
