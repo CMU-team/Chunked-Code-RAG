@@ -121,3 +121,7 @@ python main.py --task "humaneval" \
 ```
 
 Running the `main.py` script will automatically conduct execution-based evaluation after the generation is finished.
+
+### References
+
+Wang, Z. Z., Asai, A., Yu, X. V., Xu, F. F., Xie, Y., Neubig, G., & Fried, D. (2024). CodeRAG-Bench: Can Retrieval Augment Code Generation?. arXiv preprint arXiv:2406.14497.
