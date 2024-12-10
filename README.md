@@ -1,4 +1,4 @@
-# CodeRAG-Bench-reproduction
+# Chunked CodeRAG-Bench
 
 This is the code repository for the reproduction of the project ["CodeRAG-Bench: Can Retrieval Augment Code Generation?"](https://code-rag-bench.github.io/) for open domain programming tasks for ANLP Assignment 3(11-711) Fall 2024.
 
@@ -19,11 +19,22 @@ pip install -r requirements.txt
 - [Generation](generation/): Code to run model generation and execution-based evaluation.
 - [Preprocess](preprocessor/): code to preprocess raw data for retrieval pool construction, see inside the directory for details.
 
-## Retrieval
+## Pre-Retrieval Chunking
 
 ```
 cd retrieval/
 ```
+
+### Fixed Size Chunking
+
+```python fixed-size_chunking.py```
+
+### Semantic Chunking
+
+```python fixed-size_chunking.py```
+
+## Retrieval
+
 ### Dataset Preprocessing
 Before running retrieval on a dataset, you need to create the datastore for it. Following
 ```
