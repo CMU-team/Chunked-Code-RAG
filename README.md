@@ -27,7 +27,8 @@ cd retrieval/
 
 ### Fixed Size Chunking
 
-```python fixed-size_chunking.py
+```
+python fixed-size-chunking.py
     --result_path datasets/PATH_TO_YOUR_DATASET \
     --tokenizer TOKENIZER \
     --max_num_tokens CHUNK SIZE
@@ -35,7 +36,8 @@ cd retrieval/
 
 ### Semantic Chunking
 
-```python fixed-size_chunking.py
+```
+python semantic-chunking.py
     --result_path datasets/PATH_TO_YOUR_DATASET \
     --tokenizer TOKENIZER
 ```
