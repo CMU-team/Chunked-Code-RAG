@@ -2,7 +2,7 @@ import json
 import argparse
 from transformers import AutoTokenizer
 
-def get_chunks(text: str, num_tokens: int, tokenizer: AutoTokenizer) -> list[str]:
+def fixed_size_chunking(text: str, num_tokens: int, tokenizer: AutoTokenizer) -> list[str]:
     # aggregate content line by line
     line_tokens = [tokenizer.tokenize(line) for line in text.split('\n')]
 
@@ -27,19 +27,12 @@ def get_chunks(text: str, num_tokens: int, tokenizer: AutoTokenizer) -> list[str
         text_chunks.append(ck)
     return text_chunks
 
-
-
-def truncate_text(text: str, num_tokens: int, tokenizer: AutoTokenizer):
-    
-    return get_chunks(text, num_tokens, tokenizer)
-
-
 def main():
     results = [json.loads(l.strip()) for l in open(args.results_path, 'r')]
     tokenizer = AutoTokenizer.from_pretrained(args.tokenizer_name)
     proc_results = []
     for r in results:
-        chunks = truncate_text(r["text"], args.max_num_tokens, tokenizer)
+        chunks = fixed_size_chunking(r["text"], args.max_num_tokens, tokenizer)
         for c in chunks:
             pd = {"_id": r.get("_id", None), "title": r.get("title", None), "metadata": r.get("metadata", None)}
             pd['text'] = c
