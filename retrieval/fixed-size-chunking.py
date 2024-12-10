@@ -1,8 +1,3 @@
-"""Post-process docs before generation.
-- solutions: none
-- tutorials: first 200 tokens, first 500 tokens, none
-"""
-
 import json
 import argparse
 from transformers import AutoTokenizer
@@ -63,7 +58,6 @@ if __name__ == "__main__":
     parser.add_argument("--results_path", type=str, required=True)
     parser.add_argument("--tokenizer_name", type=str, default="bigcode/starcoder2-7b")
     parser.add_argument("--max_num_tokens", type=int, default=None)
-    parser.add_argument("--is_docs", action="store_true")
     args = parser.parse_args()
 
     main()
