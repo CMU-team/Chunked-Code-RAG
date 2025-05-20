@@ -1,6 +1,6 @@
 # Chunked CodeRAG-Bench
 
-This is the code repository for the project ["Chunked CodeRAG-Bench - Improving Retrieval Augmented Generation in Code using Chunking"] based on the CodeRAG-Bench (https://code-rag-bench.github.io/) for open domain programming tasks for ANLP Assignment 4(11-711) Fall 2024.
+This is the code repository for the project ["Chunked CodeRAG-Bench - Improving Retrieval Augmented Generation in Code using Chunking"] based on the CodeRAG-Bench (https://code-rag-bench.github.io/) for open domain programming tasks for ANLP Assignment 4(11-711) Fall 2024. We aim on improving generation performance by incorporating chunking into the pipeline.
 
 ## Installation
 
